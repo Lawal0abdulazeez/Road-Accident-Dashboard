@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Project Description Section */
+#project-description h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+#project-description ul {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+#project-description ul li {
+    margin-bottom: 10px;
+}
+
+/* Dashboard Embedding Section */
+#dashboard {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#dashboard h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dashboard-container {
+    text-align: center;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section.content h2 {
+        font-size: 1.5em;
+    }
+
+    .iframe-container {
+        padding-bottom: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    section.content h2 {
+        font-size: 1.2em;
+    }
+
+    .iframe-container {
+        padding-bottom: 100%;
+    }
+}
